@@ -1,0 +1,165 @@
+h1 {
+color: blue;
+font-size: 80px;
+margin: 0px 120px;
+}
+
+head {
+position: relative;
+width: 1440px;
+height: 1024px;
+}
+
+/* Light blue/light-blue-100 */
+body {
+background:#E5E5E5;
+}
+
+#mensaje{
+    /* Ingrese el texto aqui */
+
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+}
+
+#B1{
+    /* Button */
+cursor: pointer;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+
+/* Dark blue/dark-blue-300 */
+
+color: white;
+background: #0A3871;
+border-radius: 24px;
+font-size: 1.5em;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+#B2{
+    /* Button */
+cursor: pointer;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 328px;
+height: 67px;
+left: 352px;
+top: 0px;
+
+/* Light gray */
+
+background: #D8DFE8;
+font-size: 1.5em;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+#B3{
+    /* Button */
+cursor: pointer;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 328px;
+height: 67px;
+left: 352px;
+top: 0px;
+
+/* Light gray */
+
+background: #D8DFE8;
+font-size: 1.5em;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 700px;
+}
+
+#T2{
+    /* Rectangle 1 */
+
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+font-size: 2.5em;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+img {
+margin: 0px 120px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.67" />
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <h1>Mensaje Secreto</h1>
+    <br/>
+    <br/>
+    <br/>
+    <img src="https://bitcoin.org/img/icons/opengraph.png?1648897668" alt="">
+    <input
+      type="text"
+      id="mensaje"
+      name="mensaje"
+      placeholder="Escribe tu Texto"
+      style="position: absolute;top: 70%;padding-right: 80px;left: 1%;"
+    />
+    <button type="submit" id="B1" onclick="load()" button style="position: absolute;top: 80%;">Encriptar</button>
+    <button type="submit" id="B2" onclick="decrypt()" button style="position: absolute;top: 80%;">Desencriptar</button>
+    <button type="submit" id="B3" onclick="copy()" button style="position: absolute;top: 92.9%;">Copiar</button>
+    <textarea name="" id="T2" cols="30" rows="10"></textarea>
+
+    <script src = "js/js.js"></script> 
+  </body>
+</html>
