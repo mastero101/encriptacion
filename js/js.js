@@ -24,3 +24,12 @@ function load(){
 
     alert("Copiado");
   }
+
+/*  function copy(){
+        var input = document.getElementById("T2").value;
+
+       navigator.clipboard.writeText(input);
+        
+       alert("Copied Text: " + input);
+  }
+*/
